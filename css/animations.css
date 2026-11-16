@@ -1,0 +1,5 @@
+@keyframes fi{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes bump{50%{transform:scale(1.25)}}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .9s,transform .9s}.rv.in{opacity:1;transform:none}
+.card.st{animation:fi .6s both}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}#cur{display:none}}
+@keyframes logoIn{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
